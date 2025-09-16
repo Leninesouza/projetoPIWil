@@ -10,11 +10,11 @@ public class DepartamentoController {
 
     @GetMapping("/cadastrar")
     public String Cadastrar() {
-        return "/departamentos/cadastro";
+        return "/departamento/cadastro";
     }
 
     @GetMapping("/listar")
     public String Listar(){
-        return "/departamentos/lista";
+        return "/departamento/lista";
     }
 }
